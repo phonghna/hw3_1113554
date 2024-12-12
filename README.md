@@ -10,6 +10,7 @@ edges = [[0,1], [0,4], [4,1], [4,3], [1,3], [1,2], [3,2]]
 
 Output: 
 [[1,4], [0,2,3,4], [1,3], [1,2,4], [0,1,3]]
+
 Explanation:
 Node 0 is connected to 1 and 4.
 Node 1 is connected to 0,2,3 and 4.
@@ -24,6 +25,7 @@ Examples: (Should not use the examples to submit your code. These examples are f
 Input: adj = [[2,3,1], [0], [0,4], [0], [2]]
 
 Output: [0, 2, 3, 1, 4]
+
 Explanation: 
 Starting from 0, the BFS traversal will follow these steps: 
 Visit 0 → Output: 0 
@@ -39,7 +41,9 @@ Examples: (Should not use the examples to submit your code. These examples are f
 Input: adj = [[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]]
 
 Output: [0, 1, 2, 3, 4]
+
 Explanation: 
+
 Starting from 0, the DFS traversal proceeds as follows: 
 Visit 0 → Output: 0 
 Visit 1 (the first neighbor of 0) → Output: 0, 1 
